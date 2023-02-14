@@ -16,10 +16,7 @@ function About() {
           <Info />
 
           <p className="about__description">
-            Recently graduated from Rutgers Coding Bootcamp as of February 17,
-            2023. I created web pages with UI / UX user interface along with my
-            most recent project, a full MERN stack application. More to be
-            entered here...
+          Recent graduate of Rutgers University's 3-month full-stack web development bootcamp, I've honed my coding skills and deepened my passion for web development. My love for technology started as a child through gaming and evolved as I discovered the limitless possibilities of HTML. Self-taught and driven, I am constantly exploring the world of technology and seeking new challenges in web development. Outside of coding, I enjoy hiking, dancing, and watching movies.
           </p>
 
           <a download="" href={CV} className="button button--flex">
