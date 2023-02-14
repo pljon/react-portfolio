@@ -10,6 +10,7 @@
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   
@@ -17,7 +18,9 @@
   --body-font: 'Poppins', sans-serif;
   
   /* font sizes */
-  --small-font-size: 1rem;
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --small-font-size: 0.875rem;
   
   /* font weight */
   --font-normal: 400;
@@ -25,9 +28,23 @@
   --font-semi-bold: 600;
 
   /* bottom margins */
+  --mb-0-25: 0.25rem;
+  --mb-1: 1rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
 
   /* z-index */
-  --z-fixed: 10;
+  --z-fixed: 100;
+}
+
+/* response text */
+@media screen and (max-width: 992px) {
+  :root {
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+
+    --h3-font-size: 1rem;
+  }
 }
 
 /* base */
@@ -41,12 +58,25 @@ html {
   scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
 ul {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+/* reuseable classes */
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
 }
 
 /* layout */
@@ -59,6 +89,16 @@ a {
 .grid {
   display: grid;
   gap: 1.5rem;
+}
+
+/* buttons */
+.button {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
 }
 
 /* responsive breakpoints */
