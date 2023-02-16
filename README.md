@@ -1,6 +1,7 @@
 # React Portfolio
 
 by [Jonathan Plaras](https://github.com/pljon/react-portfolio)
+https://pljon-react-portfolio.herokuapp.com/
 
 ## Description
 
