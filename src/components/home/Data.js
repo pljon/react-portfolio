@@ -3,7 +3,7 @@ import React from "react";
 const Data = () => {
   return (
     <div className="home__data">
-      <h1 className="home__title">
+      <h3 className="home__title">
         Jonathan Plaras
         <svg
           width="36"
@@ -54,7 +54,7 @@ const Data = () => {
             fill="#EBA352"
           ></path>
         </svg>
-      </h1>
+      </h3>
       <h3 className="home__subtitle">Full-stack Web Developer</h3>
       <p className="home__description">
         I am currently learning to become a full-stack web developer based in
