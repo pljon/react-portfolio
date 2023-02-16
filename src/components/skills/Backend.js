@@ -7,7 +7,6 @@ const Backend = () => {
 
       <div className="skills__box">
         <div className="skills__group">
-
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
 
@@ -25,7 +24,6 @@ const Backend = () => {
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
-
         </div>
       </div>
     </div>

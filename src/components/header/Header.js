@@ -9,7 +9,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Plaras
+          pl.Jon
         </a>
 
         {/* toggle menu on click event handler and show menu */}
