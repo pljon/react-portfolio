@@ -29,6 +29,14 @@ const Footer = () => {
           >
             <i class="uil uil-github-alt"></i>
           </a>
+
+          <a href="https://www.linkedin.com/in/jonathan-plaras-83b900266/"
+            className="footer__social-link"
+            target="_blank"
+            >
+            <i class="uil uil-linkedin-alt"></i>
+          </a>
+          
         </div>
 
         {/* <span className="footer__copy">pljon All Rights Reserved</span> */}
